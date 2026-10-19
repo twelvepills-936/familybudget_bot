@@ -1,0 +1,39 @@
+# Environment & Secrets (CRITICAL: Do not commit secrets)
+.env
+.env.local
+*.env
+
+# Binaries & executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+expense-server
+/backend/server.exe
+
+# Dependencies
+node_modules/
+/frontend/node_modules/
+
+# Production build outputs
+dist/
+/frontend/dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+/frontend/tsconfig.tsbuildinfo
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Scratch & Logs
+scratch/
+scratch_*
+*.log
